@@ -1,0 +1,113 @@
+<VI syntaxVersion=11 LVversion=20008000 revision=12 name="Test - Using Traverse.vi">
+<TITLE>测试－使用遍历</TITLE>
+<HELP_PATH></HELP_PATH>
+<HELP_TAG></HELP_TAG>
+<RTM_PATH type="default"></RTM_PATH>
+<DESC>本测试VI由Using Traverse.vi范例使用。</DESC>
+<CONTENT>
+	<GROUPER>
+		<PARTS>
+		</PARTS></GROUPER>
+	<LABEL><STEXT><FONT style='B'>请不要保存对本VI的改动！！！<FONT predef=APPFONT>本VI为Using Traverse.vi范例VI的操作目标VI。因此，保存本VI的改动可能会使Using Traverse.vi范例无法演示其预定的功能。</STEXT></LABEL>
+</CONTENT>
+<BDCONTENT>
+	<LABEL><STEXT>程序框图包含8个顶层对象（包括本注释）。<FONT style='B'>顶层程序框图<FONT predef=APPFONT>的<FONT style='B'>所有对象[]<FONT predef=APPFONT>属性只返回这8个对象的引用。如需获取所有程序框图对象的引用，可使用<FONT style='B'>遍历查找图形对象<FONT predef=APPFONT>VI。</STEXT></LABEL>
+	<CONTROL ID=80 type="数值常量" name="I32常量">
+		<DESC></DESC>
+		<TIP></TIP>
+		<PARTS>
+		</PARTS>
+	</CONTROL>
+	<NODE ID=49 type="SubVI" name="Generate Temporary File Path.vi" subVIName="Generate Temporary File Path.vi">
+		<DESC></DESC>
+	</NODE>
+	<NODE ID=47 type="Function" name="打开/创建/替换文件" primID=4E504F46 primName="打开/创建/替换文件">
+		<DESC></DESC>
+	</NODE>
+	<NODE ID=202 type="Flat Sequence" name="平铺式顺序结构">
+		<DESC></DESC>
+		<NODE ID=289 type="Sequence Frame">
+			<DESC></DESC>
+			<BDCONTENT>
+			</BDCONTENT>
+		</NODE>
+	</NODE>
+	<CONTROL ID=82 type="数组常量" name="I32数组常量">
+		<DESC></DESC>
+		<TIP></TIP>
+		<PARTS>
+		</PARTS>
+		<CONTENT>
+			<CONTROL ID=80 type="数值常量" name="">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+				</PARTS>
+			</CONTROL>
+		</CONTENT>
+	</CONTROL>
+	<NODE ID=33 type="While Loop" name="While循环2">
+		<DESC></DESC>
+		<BDCONTENT>
+			<CONTROL ID=79 type="假常量" name="">
+				<DESC></DESC>
+				<TIP></TIP>
+				<PARTS>
+				</PARTS>
+			</CONTROL>
+			<NODE ID=33 type="While Loop" name="While循环3">
+				<DESC></DESC>
+				<BDCONTENT>
+					<NODE ID=197 type="PolyVI" name="Write Delimited Spreadsheet.vi" subVIName="Write Delimited Spreadsheet.vi">
+						<DESC></DESC>
+					</NODE>
+					<CONTROL ID=79 type="假常量" name="">
+						<DESC></DESC>
+						<TIP></TIP>
+						<PARTS>
+						</PARTS>
+					</CONTROL>
+				</BDCONTENT>
+			</NODE>
+		</BDCONTENT>
+	</NODE>
+	<NODE ID=32 type="For Loop" name="For循环">
+		<DESC></DESC>
+		<BDCONTENT>
+			<NODE ID=33 type="While Loop" name="While循环1">
+				<DESC></DESC>
+				<BDCONTENT>
+					<CONTROL ID=79 type="假常量" name="">
+						<DESC></DESC>
+						<TIP></TIP>
+						<PARTS>
+						</PARTS>
+					</CONTROL>
+					<CONTROL ID=82 type="数组常量" name="字符串数组常量">
+						<DESC></DESC>
+						<TIP></TIP>
+						<PARTS>
+						</PARTS>
+						<DEFAULT>
+							<ARRAY nElems=0>
+							</ARRAY>
+						</DEFAULT>
+						<CONTENT>
+							<CONTROL ID=81 type="字符串常量" name="">
+								<DESC></DESC>
+								<TIP></TIP>
+								<PARTS>
+									<PART ID=11 order=0 type="文本"><LABEL><STEXT></STEXT></LABEL></PART>
+								</PARTS>
+								<DEFAULT><SAME_AS_LABEL></DEFAULT>
+							</CONTROL>
+						</CONTENT>
+					</CONTROL>
+				</BDCONTENT>
+			</NODE>
+		</BDCONTENT>
+	</NODE>
+</BDCONTENT>
+</VI>
+
+
