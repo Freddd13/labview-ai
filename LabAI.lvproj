@@ -13,6 +13,7 @@
 		<Item Name="data" Type="Folder" URL="../data">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="add_quote_for_str.vi" Type="VI" URL="../add_quote_for_str.vi"/>
 		<Item Name="analyze-single-vi.vi" Type="VI" URL="../analyze-single-vi.vi"/>
 		<Item Name="check_system_vi.vi" Type="VI" URL="../check_system_vi.vi"/>
 		<Item Name="get_array_from_json_safe.vi" Type="VI" URL="../get_array_from_json_safe.vi"/>
