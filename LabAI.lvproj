@@ -19,19 +19,27 @@
 		<Item Name="get_array_from_json_safe.vi" Type="VI" URL="../get_array_from_json_safe.vi"/>
 		<Item Name="get_status_code.vi" Type="VI" URL="../../FL62风洞主控软件/Desktop/2.4米风洞主控软件20240716/Web大纲/utils/get_status_code.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="mainV2.vi" Type="VI" URL="../mainV2.vi"/>
 		<Item Name="make_current_structure_metajson.vi" Type="VI" URL="../make_current_structure_metajson.vi"/>
 		<Item Name="make_current_subvi_metajson.vi" Type="VI" URL="../make_current_subvi_metajson.vi"/>
+		<Item Name="make_node.vi" Type="VI" URL="../make_node.vi"/>
 		<Item Name="make_structure_metaarray.vi" Type="VI" URL="../make_structure_metaarray.vi"/>
 		<Item Name="make_subvi_metaarray.vi" Type="VI" URL="../make_subvi_metaarray.vi"/>
+		<Item Name="node.ctl" Type="VI" URL="../node.ctl"/>
+		<Item Name="node_type.ctl" Type="VI" URL="../node_type.ctl"/>
+		<Item Name="node_var_property.ctl" Type="VI" URL="../node_var_property.ctl"/>
 		<Item Name="ref.vi" Type="VI" URL="../ref.vi"/>
 		<Item Name="Test - Using Traverse.vi" Type="VI" URL="../Test - Using Traverse.vi"/>
+		<Item Name="test_ds.vi" Type="VI" URL="../test_ds.vi"/>
 		<Item Name="test_example.vi" Type="VI" URL="../test_example.vi"/>
 		<Item Name="tttt_.vi" Type="VI" URL="../tttt_.vi"/>
 		<Item Name="update_json_by_inserting_array.vi" Type="VI" URL="../update_json_by_inserting_array.vi"/>
+		<Item Name="V2analysis.vi" Type="VI" URL="../V2analysis.vi"/>
 		<Item Name="获取层次结构.vi" Type="VI" URL="../获取层次结构.vi"/>
 		<Item Name="未命名 13.vi" Type="VI" URL="../未命名 13.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -54,11 +62,15 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
 				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
+				<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
 				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -79,6 +91,8 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 			<Item Name="Helper - Parse Traverse Results.vi" Type="VI" URL="/E/LabVIEW/32-bit/LabVIEW 2020/examples/Application Control/VI Scripting/Finding and Modifying Objects/Helper - Parse Traverse Results.vi"/>
+			<Item Name="node_cluster.ctl" Type="VI" URL="../node_cluster.ctl"/>
+			<Item Name="property_cluster.ctl" Type="VI" URL="../property_cluster.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
