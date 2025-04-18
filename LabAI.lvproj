@@ -29,6 +29,7 @@
 		<Item Name="node_type.ctl" Type="VI" URL="../node_type.ctl"/>
 		<Item Name="node_var_property.ctl" Type="VI" URL="../node_var_property.ctl"/>
 		<Item Name="ref.vi" Type="VI" URL="../ref.vi"/>
+		<Item Name="RW utf-8.vi" Type="VI" URL="../RW utf-8.vi"/>
 		<Item Name="Test - Using Traverse.vi" Type="VI" URL="../Test - Using Traverse.vi"/>
 		<Item Name="test_ds.vi" Type="VI" URL="../test_ds.vi"/>
 		<Item Name="test_example.vi" Type="VI" URL="../test_example.vi"/>
