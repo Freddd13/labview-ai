@@ -14,23 +14,27 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="add_quote_for_str.vi" Type="VI" URL="../add_quote_for_str.vi"/>
+		<Item Name="additional_params.ctl" Type="VI" URL="../additional_params.ctl"/>
 		<Item Name="analyze-single-vi.vi" Type="VI" URL="../analyze-single-vi.vi"/>
 		<Item Name="check_system_vi.vi" Type="VI" URL="../check_system_vi.vi"/>
+		<Item Name="frame.ctl" Type="VI" URL="../frame.ctl"/>
 		<Item Name="get_array_from_json_safe.vi" Type="VI" URL="../get_array_from_json_safe.vi"/>
 		<Item Name="get_status_code.vi" Type="VI" URL="../../FL62风洞主控软件/Desktop/2.4米风洞主控软件20240716/Web大纲/utils/get_status_code.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="mainV2.vi" Type="VI" URL="../mainV2.vi"/>
 		<Item Name="make_current_structure_metajson.vi" Type="VI" URL="../make_current_structure_metajson.vi"/>
 		<Item Name="make_current_subvi_metajson.vi" Type="VI" URL="../make_current_subvi_metajson.vi"/>
+		<Item Name="make_frame.vi" Type="VI" URL="../make_frame.vi"/>
 		<Item Name="make_node.vi" Type="VI" URL="../make_node.vi"/>
 		<Item Name="make_structure_metaarray.vi" Type="VI" URL="../make_structure_metaarray.vi"/>
 		<Item Name="make_subvi_metaarray.vi" Type="VI" URL="../make_subvi_metaarray.vi"/>
 		<Item Name="node.ctl" Type="VI" URL="../node.ctl"/>
 		<Item Name="node_type.ctl" Type="VI" URL="../node_type.ctl"/>
-		<Item Name="node_var_property.ctl" Type="VI" URL="../node_var_property.ctl"/>
+		<Item Name="process_frame_text.vi" Type="VI" URL="../process_frame_text.vi"/>
 		<Item Name="ref.vi" Type="VI" URL="../ref.vi"/>
 		<Item Name="RW utf-8.vi" Type="VI" URL="../RW utf-8.vi"/>
 		<Item Name="Test - Using Traverse.vi" Type="VI" URL="../Test - Using Traverse.vi"/>
+		<Item Name="test1.vi" Type="VI" URL="../test1.vi"/>
 		<Item Name="test_ds.vi" Type="VI" URL="../test_ds.vi"/>
 		<Item Name="test_example.vi" Type="VI" URL="../test_example.vi"/>
 		<Item Name="tttt_.vi" Type="VI" URL="../tttt_.vi"/>
@@ -77,6 +81,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -93,6 +98,7 @@
 			</Item>
 			<Item Name="Helper - Parse Traverse Results.vi" Type="VI" URL="/E/LabVIEW/32-bit/LabVIEW 2020/examples/Application Control/VI Scripting/Finding and Modifying Objects/Helper - Parse Traverse Results.vi"/>
 			<Item Name="node_cluster.ctl" Type="VI" URL="../node_cluster.ctl"/>
+			<Item Name="node_var_property.ctl" Type="VI" URL="../node_var_property.ctl"/>
 			<Item Name="property_cluster.ctl" Type="VI" URL="../property_cluster.ctl"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
