@@ -19,6 +19,7 @@
 		<Item Name="analyze-single-vi.vi" Type="VI" URL="../analyze-single-vi.vi"/>
 		<Item Name="check_system_vi.vi" Type="VI" URL="../check_system_vi.vi"/>
 		<Item Name="frame.ctl" Type="VI" URL="../frame.ctl"/>
+		<Item Name="gen_termial_data_from_term.vi" Type="VI" URL="../gen_termial_data_from_term.vi"/>
 		<Item Name="get_array_from_json_safe.vi" Type="VI" URL="../get_array_from_json_safe.vi"/>
 		<Item Name="get_status_code.vi" Type="VI" URL="../../FL62风洞主控软件/Desktop/2.4米风洞主控软件20240716/Web大纲/utils/get_status_code.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
