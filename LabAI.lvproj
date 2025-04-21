@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="varPersistentID:{89FD5D90-44A8-4AB8-AF65-60B48D8EBA13}" Type="Ref">/我的电脑/未命名库 1.lvlib/布尔 4</Property>
 	<Item Name="我的电脑" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -28,11 +29,15 @@
 		<Item Name="make_node.vi" Type="VI" URL="../make_node.vi"/>
 		<Item Name="make_structure_metaarray.vi" Type="VI" URL="../make_structure_metaarray.vi"/>
 		<Item Name="make_subvi_metaarray.vi" Type="VI" URL="../make_subvi_metaarray.vi"/>
+		<Item Name="make_terminals.vi" Type="VI" URL="../make_terminals.vi"/>
 		<Item Name="node.ctl" Type="VI" URL="../node.ctl"/>
 		<Item Name="node_type.ctl" Type="VI" URL="../node_type.ctl"/>
 		<Item Name="process_frame_text.vi" Type="VI" URL="../process_frame_text.vi"/>
 		<Item Name="ref.vi" Type="VI" URL="../ref.vi"/>
 		<Item Name="RW utf-8.vi" Type="VI" URL="../RW utf-8.vi"/>
+		<Item Name="terminal_direction.ctl" Type="VI" URL="../terminal_direction.ctl"/>
+		<Item Name="terminal_type.ctl" Type="VI" URL="../terminal_type.ctl"/>
+		<Item Name="terminalData.ctl" Type="VI" URL="../terminalData.ctl"/>
 		<Item Name="Test - Using Traverse.vi" Type="VI" URL="../Test - Using Traverse.vi"/>
 		<Item Name="test1.vi" Type="VI" URL="../test1.vi"/>
 		<Item Name="test_ds.vi" Type="VI" URL="../test_ds.vi"/>
@@ -42,6 +47,7 @@
 		<Item Name="V2analysis.vi" Type="VI" URL="../V2analysis.vi"/>
 		<Item Name="获取层次结构.vi" Type="VI" URL="../获取层次结构.vi"/>
 		<Item Name="未命名 13.vi" Type="VI" URL="../未命名 13.vi"/>
+		<Item Name="未命名库 1.lvlib" Type="Library" URL="../未命名库 1.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
@@ -88,6 +94,7 @@
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="UID to GObject Reference.vi" Type="VI" URL="/&lt;vilib&gt;/VIServer/UID to GObject Reference.vi"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
