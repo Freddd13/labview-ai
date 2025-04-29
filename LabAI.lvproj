@@ -14,6 +14,9 @@
 		<Item Name="data" Type="Folder" URL="../data">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="debug" Type="Folder" URL="../debug">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="add_quote_for_str.vi" Type="VI" URL="../add_quote_for_str.vi"/>
 		<Item Name="additional_params.ctl" Type="VI" URL="../additional_params.ctl"/>
 		<Item Name="analyze-single-vi.vi" Type="VI" URL="../analyze-single-vi.vi"/>
@@ -21,7 +24,7 @@
 		<Item Name="frame.ctl" Type="VI" URL="../frame.ctl"/>
 		<Item Name="gen_termial_data_from_term.vi" Type="VI" URL="../gen_termial_data_from_term.vi"/>
 		<Item Name="get_array_from_json_safe.vi" Type="VI" URL="../get_array_from_json_safe.vi"/>
-		<Item Name="get_status_code.vi" Type="VI" URL="../../FL62风洞主控软件/Desktop/2.4米风洞主控软件20240716/Web大纲/utils/get_status_code.vi"/>
+		<Item Name="get_status_code.vi" Type="VI" URL="../get_status_code.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="mainV2.vi" Type="VI" URL="../mainV2.vi"/>
 		<Item Name="make_current_structure_metajson.vi" Type="VI" URL="../make_current_structure_metajson.vi"/>
@@ -105,6 +108,7 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="get_status_code.vi" Type="VI" URL="../../FL62风洞主控软件/Desktop/2.4米风洞主控软件20240716/Web大纲/utils/get_status_code.vi"/>
 			<Item Name="Helper - Parse Traverse Results.vi" Type="VI" URL="/E/LabVIEW/32-bit/LabVIEW 2020/examples/Application Control/VI Scripting/Finding and Modifying Objects/Helper - Parse Traverse Results.vi"/>
 			<Item Name="node_cluster.ctl" Type="VI" URL="../node_cluster.ctl"/>
 			<Item Name="node_var_property.ctl" Type="VI" URL="../node_var_property.ctl"/>
