@@ -41,6 +41,7 @@
 		<Item Name="terminalData.ctl" Type="VI" URL="../terminalData.ctl"/>
 		<Item Name="Test - Using Traverse.vi" Type="VI" URL="../Test - Using Traverse.vi"/>
 		<Item Name="test1.vi" Type="VI" URL="../test1.vi"/>
+		<Item Name="test2.vi" Type="VI" URL="../test2.vi"/>
 		<Item Name="test_ds.vi" Type="VI" URL="../test_ds.vi"/>
 		<Item Name="test_example.vi" Type="VI" URL="../test_example.vi"/>
 		<Item Name="tttt_.vi" Type="VI" URL="../tttt_.vi"/>
