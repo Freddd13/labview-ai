@@ -37,6 +37,7 @@
 		<Item Name="node.ctl" Type="VI" URL="../node.ctl"/>
 		<Item Name="node_type.ctl" Type="VI" URL="../node_type.ctl"/>
 		<Item Name="process_frame_text.vi" Type="VI" URL="../process_frame_text.vi"/>
+		<Item Name="process_seq_frame.vi" Type="VI" URL="../process_seq_frame.vi"/>
 		<Item Name="ref.vi" Type="VI" URL="../ref.vi"/>
 		<Item Name="RW utf-8.vi" Type="VI" URL="../RW utf-8.vi"/>
 		<Item Name="terminal_direction.ctl" Type="VI" URL="../terminal_direction.ctl"/>
