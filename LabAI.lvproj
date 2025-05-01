@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="varPersistentID:{89FD5D90-44A8-4AB8-AF65-60B48D8EBA13}" Type="Ref">/我的电脑/未命名库 1.lvlib/布尔 4</Property>
+	<Property Name="varPersistentID:{B942A131-71C7-4089-BCC1-0A481B91A455}" Type="Ref">/我的电脑/debug_mono.lvlib/debug</Property>
 	<Item Name="我的电脑" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -21,6 +22,7 @@
 		<Item Name="additional_params.ctl" Type="VI" URL="../additional_params.ctl"/>
 		<Item Name="analyze-single-vi.vi" Type="VI" URL="../analyze-single-vi.vi"/>
 		<Item Name="check_system_vi.vi" Type="VI" URL="../check_system_vi.vi"/>
+		<Item Name="debug_mono.lvlib" Type="Library" URL="../debug_mono.lvlib"/>
 		<Item Name="decide_type.vi" Type="VI" URL="../decide_type.vi"/>
 		<Item Name="frame.ctl" Type="VI" URL="../frame.ctl"/>
 		<Item Name="gen_termial_data_from_term.vi" Type="VI" URL="../gen_termial_data_from_term.vi"/>
@@ -47,13 +49,14 @@
 		<Item Name="Test - Using Traverse.vi" Type="VI" URL="../Test - Using Traverse.vi"/>
 		<Item Name="test1.vi" Type="VI" URL="../test1.vi"/>
 		<Item Name="test2.vi" Type="VI" URL="../test2.vi"/>
+		<Item Name="test4.vi" Type="VI" URL="../test4.vi"/>
 		<Item Name="test_ds.vi" Type="VI" URL="../test_ds.vi"/>
 		<Item Name="test_example.vi" Type="VI" URL="../test_example.vi"/>
+		<Item Name="testMissingVi.vi" Type="VI" URL="../testMissingVi.vi"/>
 		<Item Name="tttt_.vi" Type="VI" URL="../tttt_.vi"/>
 		<Item Name="update_json_by_inserting_array.vi" Type="VI" URL="../update_json_by_inserting_array.vi"/>
 		<Item Name="V2analysis.vi" Type="VI" URL="../V2analysis.vi"/>
 		<Item Name="获取层次结构.vi" Type="VI" URL="../获取层次结构.vi"/>
-		<Item Name="未命名 13.vi" Type="VI" URL="../未命名 13.vi"/>
 		<Item Name="未命名库 1.lvlib" Type="Library" URL="../未命名库 1.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -115,6 +118,7 @@
 			<Item Name="node_cluster.ctl" Type="VI" URL="../node_cluster.ctl"/>
 			<Item Name="node_var_property.ctl" Type="VI" URL="../node_var_property.ctl"/>
 			<Item Name="property_cluster.ctl" Type="VI" URL="../property_cluster.ctl"/>
+			<Item Name="test3.vi" Type="VI" URL="../test3.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
