@@ -113,7 +113,6 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="get_status_code.vi" Type="VI" URL="../../FL62风洞主控软件/Desktop/2.4米风洞主控软件20240716/Web大纲/utils/get_status_code.vi"/>
 			<Item Name="Helper - Parse Traverse Results.vi" Type="VI" URL="/E/LabVIEW/32-bit/LabVIEW 2020/examples/Application Control/VI Scripting/Finding and Modifying Objects/Helper - Parse Traverse Results.vi"/>
 			<Item Name="node_cluster.ctl" Type="VI" URL="../node_cluster.ctl"/>
 			<Item Name="node_var_property.ctl" Type="VI" URL="../node_var_property.ctl"/>
